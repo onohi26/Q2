@@ -48,11 +48,11 @@ python train_vxm.py
 
 テストは以下のように行ってください。
 
-このときGeometric matching CNNにより得られた結果画像とキーポイント座標を使用します。
-
 ```
 python demo_vxm.py
 ```
+
+このときGeometric matching CNNにより得られた結果画像とキーポイント座標を使用します。
 
 テスト時に勾配降下法により、モデルの最適化を行うため、テストには時間がかかります。
 
